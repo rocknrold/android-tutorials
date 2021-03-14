@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">newboston</string>
+    <string name="mybutton">Click me</string>
+    <string name="mytext">Change Me</string>
+</resources>
