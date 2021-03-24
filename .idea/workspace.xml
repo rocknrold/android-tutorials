@@ -9,7 +9,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48e797f1-bd23-43ad-aded-c44161b4c685" name="Default Changelist" comment="" />
+    <list default="true" id="48e797f1-bd23-43ad-aded-c44161b4c685" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StylesThemesMaterialDesign/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StylesThemesMaterialDesign/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StylesThemesMaterialDesign/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StylesThemesMaterialDesign/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StylesThemesMaterialDesign/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StylesThemesMaterialDesign/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pe5QiphWUOqIHD5y3RKfbYVrCB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,8 +38,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-viewD:/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-previewD:/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1275754546">
@@ -43,9 +52,7 @@
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="newboston.app" />
@@ -100,9 +107,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -123,14 +128,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1615532460769" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616471066083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1616471066083" />
     <state x="614" y="207" key="AndroidCreateXmlResourceDialog" timestamp="1615531984882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="207" key="AndroidCreateXmlResourceDialog/0.0.1536.834@0.0.1536.834" timestamp="1615531984882" />
-    <state x="549" y="144" key="FileChooserDialogImpl" timestamp="1615537081234">
+    <state x="549" y="144" key="FileChooserDialogImpl" timestamp="1616573864707">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="144" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615537081234" />
+    <state x="549" y="144" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616573864707" />
     <state width="745" height="213" key="GridCell.Tab.0.bottom" timestamp="1615534039757">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -147,5 +156,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="745" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615534039757" />
+    <state x="99" y="18" key="SettingsEditor" timestamp="1616471423857">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="99" y="18" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1616471423857" />
   </component>
 </project>
