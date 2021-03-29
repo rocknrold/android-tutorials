@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="second_activity_message">Nice welcome to second Activity \n You\'ve made it through intent</string>
+</resources>
