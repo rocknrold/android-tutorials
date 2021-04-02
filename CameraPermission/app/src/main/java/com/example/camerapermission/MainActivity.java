@@ -37,16 +37,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkPermission(Manifest.permission.CAMERA, CAMERA_REQUEST_CODE);
-                dispatchTakePictureIntent(CAMERA_REQUEST_CODE);
+                if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+                    dispatchTakePictureIntent(CAMERA_REQUEST_CODE);
+                }
             }
         });
     }
 
     public void checkPermission(String permission, int requestCode){
-        if (ContextCompat.checkSelfPermission(this,permission) == PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(this, "Permission Already Granted", Toast.LENGTH_SHORT).show();
+        if (ContextCompat.checkSelfPermission(MainActivity.this,permission) == PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(MainActivity.this, "Permission Already Granted", Toast.LENGTH_SHORT).show();
         } else if(ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, permission)){
-                new AlertDialog.Builder(this).setMessage("This app needs access to you camera.")
+                new AlertDialog.Builder(MainActivity.this).setMessage("This app needs access to you camera.")
                         .setTitle("Camera request permission")
                         .setCancelable(false)
                         .setPositiveButton("yes", new DialogInterface.OnClickListener() {
