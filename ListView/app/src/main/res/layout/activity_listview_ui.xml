@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<com.google.android.material.card.MaterialCardView
+    app:strokeWidth="1dp"
+    app:strokeColor="#1E7DC8"
+    app:cardElevation="0dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:text="Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerInside"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Favorite"
+            app:icon="@drawable/ic_baseline_favorite_24"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            />
+
+        <Button
+            android:id="@+id/btnComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_baseline_comment_24"
+            android:hint="Comment"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_weight="@android:integer/config_longAnimTime"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Share"
+            app:icon="@drawable/ic_baseline_share_24"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+</LinearLayout>
